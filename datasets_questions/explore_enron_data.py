@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 """ 
     Starter code for exploring the Enron dataset (emails + finances);
