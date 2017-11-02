@@ -23,8 +23,9 @@ def outlierCleaner(predictions, ages, net_worths):
 
     cleaned_data = sorted(cleaned_data, key=lambda item: item[2])
 
-    for j in range(all / 10):
-        cleaned_data.pop()
+    # for j in range(all / 10):
+    #     cleaned_data.pop()
+    cleaned_data = cleaned_data[:81]
 
     print 'new', len(cleaned_data), cleaned_data
 
